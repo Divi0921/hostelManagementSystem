@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Administration Accounts</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<nav>
+			<div class="logo"><img src="images/logo.jpg" alt="" /></div>
+			<button type="submit" class="dash">Hello Parnav !</button>
+		</nav>
+		<hr />
+		<div class="btn"><span class="fas fa-bars"></span></div>
+		<div class="main">
+			<aside class="sidebar">
+				<div class="sidebar-header">
+					<button class="close-btn"><i class="fas fa-times"></i></button>
+					<h2>Chief Warden</h2>
+				</div>
+				<ul class="links">
+					<div class="">
+						<li class="">
+							<a href="" class="create">
+								<!-- <i class="fas fa-laptop-medical"></i> -->
+								Account <span class="fas fa-caret-down first"></span>
+							</a>
+							<ul class="hides">
+								<li class="">
+									<a href="" class="admins">
+										Administration <span class="fas fa-caret-down first"></span
+									></a>
+									<ul class="admin">
+										<li><a href="admin-create.html">Create Profile</a></li>
+										<li><a href="admin-show.html"> Show Accounts</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="" class="students"
+										>Student <span class="fas fa-caret-down first"></span
+									></a>
+									<ul class="student">
+										<li><a href="student-create.html"> Create Profile</a></li>
+										<li><a href="student-show.html"> Show Accounts</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</div>
+					<li>
+						<a href="" class="leave">Leave Application</a>
+						<ul class="leaves">
+							<li>All</li>
+							<li>Approved</li>
+							<li>Rejected</li>
+							<li>Pending</li>
+						</ul>
+					</li>
+					<li><a href="">Hostel</a></li>
+				</ul>
+			</aside>
+			<div class="form-div">
+				<div class="container-div">
+					<div class="table">
+						<button class="acc">All Accounts</button>
+						<button class="acc">Active Accounts</button>
+						<button class="acc">Deactive Accounts</button>
+						<h2>Administration Accounts</h2>
+					</div>
+					<table class="table-admin">
+						<tr>
+							<th>Sr. No.</th>
+							<th>Name</th>
+							<th>Role</th>
+							<th>PAN Number</th>
+							<th>Aadhar Number</th>
+							<th>Email Address</th>
+							<th>Mobile Number</th>
+						</tr>
+						<tr>
+							<td>1.</td>
+							<td>Parnav Kumar</td>
+							<td>Chief Warden</td>
+							<td>ENK4667P</td>
+							<td>3987423124</td>
+							<td>parnavkr@gmail.com</td>
+							<td>798523539</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<script src="sidebar.js"></script>
+	</body>
+</html>
